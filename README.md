@@ -3,8 +3,12 @@
 ## groups_usersテーブル
 
 |Column|Type|Options|
-|------|----|-------|
+|------|----|-------| 
+
+## usersテーブル
 |user_id|integer|null: false, foreign_key: true|
+
+## groupsテーブル
 |group_id|integer|null: false, foreign_key: true|
 
 ### Association
